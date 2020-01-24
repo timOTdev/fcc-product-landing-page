@@ -1,11 +1,15 @@
 body {
   width: 90%;
   margin: auto;
+  font-family: 'Cousine', monospace;
 }
 
 #features,
 #pricing,
 #usage {
+  h1 {
+    font-family: 'Playfair Display', serif;
+  }
   @media (max-width: 768px) {
     width: 90%;
   }
