@@ -1,15 +1,25 @@
 #usage {
   margin: auto;
+  background-color: lightslategray;
+  padding: 2rem;
 
   .usage-intro {
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    h3 {
+      color: turquoise;
+      text-decoration: underline;
+    }
   }
 
   .usage-info {
     margin: auto;
     font-size: 1.2rem;
+    h3 {
+      color: turquoise;
+      text-decoration: underline;
+    }
 
     .usage-info-text {
       width: 50%;
@@ -20,18 +30,4 @@
       text-align: center;
     }
   }
-  // .usage-video {
-  //   text-align: center;
-  // }
-
-  // .usage-instructions {
-  //   width: 100%;
-  //   // margin: auto;
-  //   text-align: center;
-  //   img {
-  //     @media (max-width: 768px) {
-  //       width: 100%;
-  //     }
-  //   }
-  // }
 }
